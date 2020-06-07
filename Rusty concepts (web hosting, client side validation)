@@ -1,0 +1,49 @@
+Web Hosting 
+
+Website hosting is where you store the files that make up your website. 
+So while people will visit your URL, the domain needs to locate the images, the text and the site design you’re hosting to let people see 
+your site in all its glory. Hosting prices vary dramatically, depending on the features offered, the reliability of the service and how 
+many extras you want. As with domain name registration, hosting is generally renewed on an annual basis.
+
+Client-side Validation
+
+https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation
+
+-Can use built in (better performance) or JS (customisable) to validate
+
+-required: Specifies whether a form field needs to be filled in before the form can be submitted.
+<input id="choose" name="i_like" required>
+input:invalid:required {
+  background-image: linear-gradient(to right, pink, lightgreen);
+}
+For good user experience, indicate to the user when form fields are required
+
+-minlength and maxlength: Specifies the minimum and maximum length of textual data (strings)
+<input type="text" id="choose" name="i_like" required minlength="6" maxlength="6">
+
+-min and max: Specifies the minimum and maximum values of numerical input types
+<input type="number" id="number" name="amount" value="1" min="1" max="10">
+
+-type: Specifies whether the data needs to be a number, an email address, or some other specific preset type. 
+-pattern: Specifies a regular expression that defines a pattern the entered data needs to follow.
+<input id="choose" name="i_like" required pattern="[Bb]anana|[Cc]herry">
+
+When an element is valid
+- :valid CSS pseudo-class which lets you apply a specific style to valid elements.
+-browser will submit the form
+
+input:valid {
+  border: 2px solid black;
+}
+
+When an element is invalid
+-matches the :invalid CSS pseudo-class
+-won't submit, displays error message
+
+input:invalid {
+  border: 2px dashed red;
+}
+
+Note: There are several errors that will prevent the form from being submitted, 
+including a badInput, patternMismatch, rangeOverflow or rangeUnderflow, stepMismatch, 
+tooLong or tooShort, typeMismatch, valueMissing, or a customError.

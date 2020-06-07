@@ -40,5 +40,24 @@ body {
 
 -Loading JavaScript
 <script src="myscript.js">
+Place script tags at the bottom of the document
+You can also add a defer tag to your script tags to make sure the HTML gets loaded first.
 
 -always use lower case file names
+
+-Organize DOM: Always consider if you need that extra div or extra element. 
+Try to create only the absolute necessary ones and divide only large parts of your page with not divs, but semantic HTML elements. 
+The same goes for other places. If you can, always use HTML5 semantic elements. 
+It helps search engines know which part is important on your page and which part is not
+
+-Compress
+Once you’re done with everything and you are ready to make your site live, compress it.
+You can use 3rd party libraries, special programs, or tools called build tools or even online applications. 
+It will make your document smaller, which results in faster page load. 
+To take this step further, enable brotli or gzip compression at the server-side. 
+It can make a huge impact on page speed.
+
+-Take some time to decorate your complex UI elements with aria attributes. 
+This brings support for assistive technologies and so you can reach a wider audience. 
+If you would like to read more about accessibility, you can do so 
+https://medium.com/swlh/why-accessibility-matters-aec371eb5e4a

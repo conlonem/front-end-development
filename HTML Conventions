@@ -1,0 +1,44 @@
+HTML Conventions
+
+
+http://w3schools-fa.ir/html/html5_syntax.html
+
+-Always add the alt attribute to images. This attribute is important when the image for some reason cannot be displayed. 
+-Also, always define image width and height. It reduces flickering because the browser can reserve space for the image before loading.
+-Try to avoid code lines longer than 80 characters.
+
+-Do not add blank lines without a reason.
+-For readability, add blank lines to separate large or logical code blocks.
+-For readability, add two spaces of indentation. Do not use the tab key.
+-Do not use unnecessary blank lines and indentation. It is not necessary to indent every element
+
+-Declaring a language is important for accessibility applications (screen readers) and search engines.
+-To ensure proper interpretation and correct search engine indexing, 
+ both the language and the character encoding should be defined as early as possible in a document
+ 
+ You should include the following <meta> viewport element in all your web pages
+ -<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+ <!-- This is a comment -->
+ <!--
+  This is a long comment example. This is a long comment example.
+  This is a long comment example. This is a long comment example.
+-->
+
+<link rel="stylesheet" href="styles.css">
+
+-Short rules can be written compressed, like this:
+p.intro {font-family: Verdana; font-size: 16em;}
+
+-Long rules should be written over multiple lines:
+body {
+  background-color: lightgrey;
+  font-family: "Arial Black", Helvetica, sans-serif;
+  font-size: 16em;
+  color: black;
+}
+
+-Loading JavaScript
+<script src="myscript.js">
+
+-always use lower case file names

@@ -17,3 +17,8 @@ h2 {
     flex-flow: row wrap;
     background-color: coral;
 }
+
+.flex-container img {
+    size: 30%;
+    margin: 0px 5px 0px 5px;
+}

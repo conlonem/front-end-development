@@ -15,10 +15,13 @@ h2 {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    background-color: coral;
+    background-color: tomato;
 }
 
-.flex-container img {
-    size: 30%;
-    margin: 0px 5px 0px 5px;
+.flex-container > div {
+    background-color: turquoise;
+    margin: 10px;
+    height: 230px;
+    width: 430px;
+    overflow: hidden;
 }

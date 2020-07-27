@@ -197,3 +197,10 @@ The lines between rows are called row lines.
   grid-row-start: 1;
   grid-row-end: 3;
 }
+
+
+
+//Flexbox 
+
+http://flexboxfroggy.com/
+https://darekkay.com/dev/flexbox-cheatsheet.html

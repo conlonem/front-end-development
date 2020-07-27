@@ -1,3 +1,19 @@
 body {
-    background-color: lightgray;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-size: medium;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background-color: coral;
 }

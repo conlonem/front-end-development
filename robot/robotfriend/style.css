@@ -4,6 +4,9 @@ h1 {
 }
 
 .robots {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
 }
 
 .head, 
@@ -24,7 +27,7 @@ h1 {
 } 
 
 .eyes {
-	
+	display: flex
 }
 
 .head:hover {
@@ -36,7 +39,6 @@ h1 {
 	width: 300px; 
 	height: 150px;
 	display: flex; 
-	margin: 0% 39.25% 0% 39.25%;
 } 
 
 .left_arm, .right_arm { 
@@ -64,7 +66,7 @@ h1 {
 	height: 200px;
 	/* This is another useful property. Hmm what do you think it does?*/
 	margin: 0 auto;
-
+	display: flex; 
 } 
 
 .left_leg, .right_leg { 
@@ -86,7 +88,7 @@ h1 {
 }
 
 .right_leg { 
-	margin-left: 100px; 
+	margin-left: 30px; 
 }
 
 .left_eye, .right_eye { 

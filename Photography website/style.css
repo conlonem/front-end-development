@@ -1,5 +1,7 @@
 body {
     background-color: rgb(19, 19, 19);
+    font-family: 'Allerta Stencil';
+    font-size: 22px;
 }
 
 h1 {
@@ -9,17 +11,17 @@ h1 {
 h2 {
     color: rgb(226, 226, 226);
     font-size: medium;
+    background-color: dimgrey;
+    padding: 0% 30% 0% 30%;
 }
 
 .flex-container {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    background-color: tomato;
 }
 
 .flex-container > div {
-    background-color: turquoise;
     margin: 10px;
     height: 230px;
     width: 430px;
@@ -33,4 +35,11 @@ h2 {
 img {
     height: 230px;
     width: 430px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 75px 75px;
+    justify-content: center;
 }

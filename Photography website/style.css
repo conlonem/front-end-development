@@ -43,3 +43,11 @@ img {
     grid-template-rows: 75px 75px;
     justify-content: center;
 }
+
+.grid-item1 {
+    padding: 20px 5px 5px 5px;
+}
+
+.grid-item2 {
+    padding: 0px 5px 5px 5px;
+}
